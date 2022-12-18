@@ -13,7 +13,8 @@ Para fazer automação web o navegador mais indicado é o Google Chrome, se não
 
 - <a href="https://www.google.com/chrome/"> Clique para baixar o Google Chrome</a>
 
-Após instalado clique abaixo para saber a versão do seu Chrome:
+Após instalado abra o navegador e digite para saber a versão do seu Chrome:
 
-- <a href="chrome://settings/help"> Ver versão </a>
+        - chrome://settings/help
+
 

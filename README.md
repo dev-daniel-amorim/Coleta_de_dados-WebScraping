@@ -36,3 +36,5 @@ Para garantir que o web driver está instalado corretamente, abra o jupyter note
 
         from selenium import webdriver
         navegador = webdriver.Chrome()
+
+Tudo pronto! as etapas acima só precisam ser feitas uma vez, a partir de agora o Selenium e web drive estão prontos para por a mão na massa!

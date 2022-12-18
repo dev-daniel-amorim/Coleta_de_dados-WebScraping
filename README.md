@@ -32,7 +32,7 @@ Exemplo: Se seu crome é versão 108.xxxx.xx baixe a versão 108 do web driver (
 
 Com o download em mãos, voçê irá ter o arquivo (chromedriver.exe) copie e cole este arquivo na mesma pasta onde está instalado o PYTHON, geralmente em c:/user/anaconda3, feito isso seu web drive está pronto.<br>
 
-Para garantir que o web driver está instalado corretamente, abre o jupyter notebook e vamos importa-lo, com o comando abaixo deve abrir o navegador automatizado, se não abrir há erros na instalação. Digite:
+Para garantir que o web driver está instalado corretamente, abra o jupyter notebook e vamos importa-lo, digite o comando abaixo deverá abrir o navegador automatizado, se não abrir há erros na instalação.
 
         from selenium import webdriver
         navegador = webdriver.Chrome()

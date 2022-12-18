@@ -25,6 +25,8 @@ O WebDriver manipula um navegador nativamente, como um usuário faria, seja loca
 - WebDriver é uma API compacta orientada a objetos. 
 - Ele manipula o navegador de forma eficaz.
 
-No link abaixo podemos baixar o chrome driver, porém tenha em mãos a versão do seu navegador e baixe a versão compatível:
+No link abaixo podemos baixar o web driver, porém tenha em mãos a versão do seu navegador e baixe a versão compatível:
 
 - <a href="https://chromedriver.chromium.org/downloads"> Clique para baixar o Web Driver</a>
+
+Com o download em mãos, voçê irá ter o arquivo (chromedriver.exe) copie e cole este arquivo na mesma pasta onde está instalado o PYTHON, geralmente em c:/user/anaconda3, feito isso seu web drive está pronto.

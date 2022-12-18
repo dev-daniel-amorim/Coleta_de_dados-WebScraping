@@ -25,7 +25,8 @@ O WebDriver manipula um navegador nativamente, como um usuário faria, seja loca
 - WebDriver é uma API compacta orientada a objetos. 
 - Ele manipula o navegador de forma eficaz.
 
-No link abaixo podemos baixar o web driver, porém tenha em mãos a versão do seu navegador e baixe a versão compatível:
+No link abaixo podemos baixar o web driver, porém tenha em mãos a versão do seu navegador e baixe a versão web driver compatível:<br>
+Exemplo: Se seu crome é versão 108.xxxx.xx baixe a versão 108 do web driver (baixe 32bits independente de ser 64).
 
 - <a href="https://chromedriver.chromium.org/downloads"> Clique para baixar o Web Driver</a>
 

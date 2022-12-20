@@ -92,3 +92,12 @@ https://user-images.githubusercontent.com/115194365/208697662-b19e4db3-5a62-463a
         navegador.find_element(By.XPATH, "/html/body/div[1]/div[3]/form/div[1]/div[1]/div[1]/div/div[2]/input").send_keys("selenium do python")
         # clica no botão pesquisar
         navegador.find_element(By.XPATH, "/html/body/div[1]/div[3]/form/div[1]/div[1]/div[4]/center/input[1]").click()
+
+# Pegando informações de elementos
+- Pegando Texto
+- Pegando atributos
+
+        navegador = webdriver.Chrome()
+        navegador.get("https://www.google.com/")
+        texto = navegador.find_element(By.XPATH, "/html/body/div[1]/div[4]/div/div/a").text
+        print(texto)

@@ -119,25 +119,4 @@ Retorna o link da logo:
         <img src="https://www.google.com/logos/doodles/2022/seasonal-holidays-2022-6753651837109831.4-law.gif"/>
 </p>   
         
-# Métodos de condições
-O Selenium fornece diversas métodos condiçionais facilitando a automação em navegadores, são eles:
-        
-        title_is
-        title_contains
-        presence_of_element_located
-        visibility_of_element_located
-        visibility_of
-        presence_of_all_elements_located
-        text_to_be_present_in_element
-        text_to_be_present_in_element_value
-        frame_to_be_available_and_switch_to_it
-        invisibility_of_element_located
-        element_to_be_clickable
-        staleness_of
-        element_to_be_selected
-        element_located_to_be_selected
-        element_selection_state_to_be
-        element_located_selection_state_to_be
-        alert_is_present
-
 

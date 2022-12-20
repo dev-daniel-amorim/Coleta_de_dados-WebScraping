@@ -100,7 +100,8 @@ https://user-images.githubusercontent.com/115194365/208697662-b19e4db3-5a62-463a
         navegador.get("https://www.google.com/")
         texto = navegador.find_element(By.XPATH, "/html/body/div[1]/div[4]/div/div/a").text
         print(texto)
-        **** IRÁRETONAR O TEXTO "buscas que marcaram 2022" que é o texto do elemento.
+        
+        **** IRÁ RETONAR O TEXTO: "buscas que marcaram 2022" que é o texto do elemento.
 
 - Pegando atributos: vamos pegar link da logo do google, que está no attr "SRC"
         

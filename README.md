@@ -64,3 +64,22 @@ Abrindo um site (get)
 Usaremos o (find_element) para selecionar algum elemento em uma página web, mas pra isso precisamos importar o BY:<Br>
 
         from selenium.webdriver.common.by import By
+        
+Cada elemento de uma página possui atributos, sabendo disso o selenium é capaz de selecionar algo por seus atributos, são eles:
+       
+        ID = "id"
+        NAME = "name"
+        XPATH = "xpath"
+        LINK_TEXT = "link text"
+        PARTIAL_LINK_TEXT = "partial link text"
+        TAG_NAME = "tag name"
+        CLASS_NAME = "class name"
+        CSS_SELECTOR = "css selector"
+        
+# Exercicio 01
+### Vamos abrir o site do google, digitar "selenium do python" no campo de busca e apertar o botão "pesquisar" tudo isso de forma automatizada com selenium:
+        
+- Pra isso iremos selecionar o campo de busca do google usando o atributo XPATH deste campo, vejao vídeo abaixo para aprender como pegar o XPATH (ou qqualquer outro atributo) de um elemento:
+        
+https://user-images.githubusercontent.com/115194365/208697662-b19e4db3-5a62-463a-b3e9-d3e521afcfd2.mp4
+

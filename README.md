@@ -102,7 +102,7 @@ https://user-images.githubusercontent.com/115194365/208697662-b19e4db3-5a62-463a
         print(texto)
         
         **** IRÁ RETONAR O TEXTO: "buscas que marcaram 2022" que é o texto do elemento.
-<h3 color="#FF0000"> BUSCAS QUE MARCARAM 2022 </h3>
+<span style="color: #f00;"> BUSCAS QUE MARCARAM 2022 </span>
 
 - Pegando atributos: vamos pegar link da logo do google, que está no attr "SRC"
         

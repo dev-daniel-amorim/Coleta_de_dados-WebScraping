@@ -113,7 +113,7 @@ https://user-images.githubusercontent.com/115194365/208697662-b19e4db3-5a62-463a
 Retorna o link da logo:
         
         https://www.google.com/logos/doodles/2022/seasonal-holidays-2022-6753651837109831.4-law.gif
-<div class="align: center">
+<div style="align: center">
 ![seasonal-holidays-2022-6753651837109831 4-law](https://user-images.githubusercontent.com/115194365/208720911-edc06f03-32ba-41d7-bd1c-177a3dd771c3.gif)
         </div>        
         

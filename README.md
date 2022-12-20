@@ -1,6 +1,6 @@
 # Coleta de dados - Web Scraping
 
-Uma das etapas de um projeto data science é a coleta de dados, Web Scraping é um método de coleta onde podemos usar a ferramenta Selenium do Python para realizar automação web.<br>
+Uma das etapas de um projeto data science é a coleta de dados, Web Scraping é um método de coleta onde podemos usar a ferramenta Selenium do Python para realizar automação web assim podemos coletar dados da internet para diversas finalidades detro de um projeto data science.<br>
 O intuito deste material é apresentar a biblioteca Selenium do python, com ela vamos aprender métodos e módulos para extração de dados via web mas atenção, esse tutorial é superficial, apenas para demostrar o "caminho das pedras", para mais leia a documentação do Selenium em:.<br>
 
 - <a href="https://selenium-python.readthedocs.io/"> Ver documentação Selenium </a>
@@ -119,3 +119,25 @@ Retorna o link da logo:
         <img src="https://www.google.com/logos/doodles/2022/seasonal-holidays-2022-6753651837109831.4-law.gif"/>
 </p>   
         
+# Métodos de condições
+O Selenium fornece diversas métodos condiçionais facilitando a automação em navegadores, são eles:
+        
+        title_is
+        title_contains
+        presence_of_element_located
+        visibility_of_element_located
+        visibility_of
+        presence_of_all_elements_located
+        text_to_be_present_in_element
+        text_to_be_present_in_element_value
+        frame_to_be_available_and_switch_to_it
+        invisibility_of_element_located
+        element_to_be_clickable
+        staleness_of
+        element_to_be_selected
+        element_located_to_be_selected
+        element_selection_state_to_be
+        element_located_selection_state_to_be
+        alert_is_present
+
+

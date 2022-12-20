@@ -83,3 +83,12 @@ Cada elemento de uma página possui atributos, sabendo disso o selenium é capaz
         
 https://user-images.githubusercontent.com/115194365/208697662-b19e4db3-5a62-463a-b3e9-d3e521afcfd2.mp4
 
+- Com XPATH do campo de busca em mãos vamos:
+        
+        navegador = webdriver.Chrome()
+        # abre o google
+        navegador.get("https://www.google.com/")
+        # Seleciona o xpath do campo de busca e digita a procura
+        navegador.find_element(By.XPATH, "/html/body/div[1]/div[3]/form/div[1]/div[1]/div[1]/div/div[2]/input").send_keys("selenium do python")
+        # clica no botão pesquisar
+        navegador.find_element(By.XPATH, "/html/body/div[1]/div[3]/form/div[1]/div[1]/div[4]/center/input[1]").click()

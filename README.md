@@ -95,9 +95,23 @@ https://user-images.githubusercontent.com/115194365/208697662-b19e4db3-5a62-463a
 
 # Pegando informações de elementos
 - Pegando Texto
-- Pegando atributos
 
         navegador = webdriver.Chrome()
         navegador.get("https://www.google.com/")
         texto = navegador.find_element(By.XPATH, "/html/body/div[1]/div[4]/div/div/a").text
         print(texto)
+        **** IRÁRETONAR O TEXTO "buscas que marcaram 2022" que é o texto do elemento.
+
+- Pegando atributos: vamos pegar link da logo do google, que está no attr "SRC"
+        
+        navegador = webdriver.Chrome()
+        navegador.get("https://www.google.com/")
+        link = navegador.find_element(By.XPATH, '//*[@id="hplogo"]').get_attribute('src')
+        print(link)
+        
+Retorna o link da logo:
+        
+        https://www.google.com/logos/doodles/2022/seasonal-holidays-2022-6753651837109831.4-law.gif
+![seasonal-holidays-2022-6753651837109831 4-law](https://user-images.githubusercontent.com/115194365/208720911-edc06f03-32ba-41d7-bd1c-177a3dd771c3.gif)
+        
+        

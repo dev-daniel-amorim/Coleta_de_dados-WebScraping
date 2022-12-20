@@ -76,7 +76,7 @@ Cada elemento de uma página possui atributos, sabendo disso o selenium é capaz
         CLASS_NAME = "class name"
         CSS_SELECTOR = "css selector"
         
-# Exercicio 01
+# Exercicio 01 - Automatizando uma pesquisa
 ### Vamos abrir o site do google, digitar "selenium do python" no campo de busca e apertar o botão "pesquisar" tudo isso de forma automatizada com selenium:
         
 - Pra isso iremos selecionar o campo de busca do google usando o atributo XPATH deste campo, vejao vídeo abaixo para aprender como pegar o XPATH (ou qqualquer outro atributo) de um elemento:
@@ -93,7 +93,7 @@ https://user-images.githubusercontent.com/115194365/208697662-b19e4db3-5a62-463a
         # clica no botão pesquisar
         navegador.find_element(By.XPATH, "/html/body/div[1]/div[3]/form/div[1]/div[1]/div[4]/center/input[1]").click()
 
-# Pegando informações de elementos
+# Exercício 01 - Pegando informações de elementos
 - Pegando Texto
 
         navegador = webdriver.Chrome()
@@ -102,6 +102,7 @@ https://user-images.githubusercontent.com/115194365/208697662-b19e4db3-5a62-463a
         print(texto)
         
         **** IRÁ RETONAR O TEXTO: "buscas que marcaram 2022" que é o texto do elemento.
+<h3 style="color: red"> BUSCAS QUE MARCARAM 2022 </h3>
 
 - Pegando atributos: vamos pegar link da logo do google, que está no attr "SRC"
         

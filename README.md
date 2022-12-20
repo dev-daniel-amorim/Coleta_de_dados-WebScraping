@@ -63,4 +63,4 @@ Abrindo um site (get)
  # Selecionando elementos (find_element)
 Usaremos o (find_element) para selecionar algum elemento em uma página web, mas pra isso precisamos importar o BY:<Br>
 
-from selenium.webdriver.common.by import By
+        from selenium.webdriver.common.by import By

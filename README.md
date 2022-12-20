@@ -43,7 +43,7 @@ Tudo pronto! as etapas acima só precisam ser feitas uma vez, a partir de agora 
 O webdriver tem que ser atualizado sempre que atualizar o chrome, ou o serviço irá parar de funcionar, outra alternativa é baixar o webdriver sempre que rodar o código via programação (programa fica mais lento) porém garante que o web drive esteja sempre atualizado, para isso basta rodar o codigo abaixo sempre que iniciar o programa:
 
         From selenium import webdriver
-        from selenium.wevdriver.chrome.service import Service
+        from selenium.webdriver.chrome.service import Service
         from webdriver_manager.chrome import ChromeDriverManager
 
         servico = Service(ChromeDriverManager().install())

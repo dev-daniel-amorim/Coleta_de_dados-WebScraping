@@ -40,7 +40,11 @@ Para garantir que o web driver está instalado corretamente, abra o jupyter note
 Tudo pronto! as etapas acima só precisam ser feitas uma vez, a partir de agora o Selenium e web drive estão prontos para por a mão na massa!
 
 ## Observações
-O webdriver tem que ser atualizado sempre que atualizar o chrome, ou o serviço irá parar de funcionar, outra alternativa é baixar o webdriver sempre que rodar o código via programação (programa fica mais lento) porém garante que o web drive esteja sempre atualizado, para isso basta rodar o codigo abaixo sempre que iniciar o programa:
+O webdriver tem que ser atualizado sempre que atualizar o chrome, ou o serviço irá parar de funcionar, outra alternativa é baixar o gerenciador de webdriver, uma biblioteca que faz todo serviço por você:
+
+        !pip install webdriver-manager
+
+logo em seguida devemos rodar as linhas de código abaixo que irá instalar automáticamente o webdriver:
 
         From selenium import webdriver
         from selenium.webdriver.chrome.service import Service
@@ -48,3 +52,15 @@ O webdriver tem que ser atualizado sempre que atualizar o chrome, ou o serviço 
 
         servico = Service(ChromeDriverManager().install())
         driver = Webdriver.Chrome(service=servico)
+
+# Utilizando recursos do Selenium
+
+Abrindo um site (get)
+
+        navegador = webdriver.Chrome()
+        navegador.get("https://www.google.com/")
+     
+ # Selecionando elementos (find_element)
+Usaremos o (find_element) para selecionar algum elemento em uma página web, mas pra isso precisamos importar o BY:<Br>
+
+from selenium.webdriver.common.by import By

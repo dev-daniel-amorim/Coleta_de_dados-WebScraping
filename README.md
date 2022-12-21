@@ -1,7 +1,7 @@
 # Coleta de dados - Web Scraping
 
-Uma das etapas de um projeto data science é a coleta de dados, Web Scraping é um método de coleta onde podemos usar a ferramenta Selenium do Python para realizar automação web assim podemos coletar dados da internet para diversas finalidades detro de um projeto data science.<br>
-O intuito deste material é apresentar a biblioteca Selenium do python, com ela vamos aprender métodos e módulos para extração de dados via web mas atenção, esse tutorial é superficial, apenas para demostrar o "caminho das pedras", para mais leia a documentação do Selenium em:.<br>
+Uma das etapas de um projeto data science é a coleta de dados, Web Scraping é um método de coleta onde podemos usar a ferramenta Selenium do Python para realizar automação web assim podemos coletar dados da internet para diversas finalidades dentro de um projeto data science.<br>
+O intuito deste material é apresentar a biblioteca Selenium do python, com ela vamos aprender alguns métodos para extração de dados via web, mas atenção, esse tutorial é superficial, somente para demostrar o "caminho das pedras", para mais leia a documentação do Selenium em:.<br>
 
 - <a href="https://selenium-python.readthedocs.io/"> Ver documentação Selenium </a>
 
@@ -118,5 +118,18 @@ Retorna o link da logo:
 <p align="center">
         <img src="https://www.google.com/logos/doodles/2022/seasonal-holidays-2022-6753651837109831.4-law.gif"/>
 </p>   
+
+# Desenvolvedor
+
+| [<img src="https://user-images.githubusercontent.com/115194365/202005566-f6278b6c-4f75-416f-b01c-e79b8d04f02e.jpg" width=115><br><sub>Daniel de Souza Amorim</sub>](https://github.com/DaniellsamorimGit) |
+| :---: | 
+
+
+#### Mais sobre o autor: <br>
+Graduado em Engenharia de computação;<br>
+Pós-graduado em Petróleo e gás;<br>
+Desenvolvedor de dispositivos embarcados, C++, Python;<br>
+Tecnologias Django, Flask, Selenium, Pandas, MySQL, HTML, Css e Javascript;<br>
+Áreas de interesse: Desenvolvimento BackEnd, Data science.<br>
         
 

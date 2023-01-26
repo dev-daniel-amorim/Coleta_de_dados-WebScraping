@@ -132,4 +132,8 @@ Desenvolvedor de dispositivos embarcados, C++, Python;<br>
 Tecnologias Django, Flask, Selenium, Pandas, MySQL, HTML, Css e Javascript;<br>
 Áreas de interesse: Desenvolvimento BackEnd, Data science.<br>
         
+<br>
+<br>
+<hr>
 
+[<< Voltar para página inicial](https://github.com/dev-daniel-amorim)
